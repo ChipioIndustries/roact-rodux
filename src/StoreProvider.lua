@@ -13,6 +13,7 @@ function StoreProvider.validateProps(props)
 end
 
 function StoreProvider:init(props)
+	assert(props.store, "StoreProvider requires a store prop")
 	self.store = props.store
 end
 
