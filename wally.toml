@@ -1,0 +1,10 @@
+[package]
+name = "chipioindustries/roact-rodux"
+description = "A connector between Roact and Rodux, similar to react-redux"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+
+[dev-dependencies]
